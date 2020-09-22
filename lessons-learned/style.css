@@ -1,0 +1,72 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+}
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: black;
+  margin-bottom: 50px;
+}
+h1 {
+  text-align: center;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+nav ul {
+  list-style: none;
+  font-weight: bold;
+  text-align: center;      
+  padding-right: 80px;
+  font-family: sans-serif;
+  margin-right: 20x;
+  font-size: 15px;
+}
+nav li {
+  display: inline-block;
+  margin-left: 15px;  
+}
+nav a {
+  text-decoration: none;
+    color: #ff9f1c;
+}
+h1 a {
+  text-decoration: none;
+  color: #ff9f1c;
+}
+#minha_foto {
+  margin-top: 160px;
+  margin-left: 100px;
+  border-radius: 100px;
+  height: 250px;
+}
+.div_ol {
+  float: right;
+  position: absolute;
+  left: 600px;
+  bottom: 300px;
+  top: 30px;
+  margin-top: 150px;
+}
+.div_ul {
+  float: right;
+  position: absolute;
+  left: 900px;
+  top: 179px;
+  bottom: 300px;
+}
+#sobre-meu-aprendizado {
+  clear: right;
+  margin-top: 80px;
+}
+h3 {
+  font-size: 25px;
+}
+footer a{
+  color: black;
+  clear: both;
+}
